@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <mata charset="UTF-8"></mata>
+    <title>Insert SVG</title>
+    <script src="modernizr-custom.js"></script>
+</head>
+<body>
+    <img src="images/muffin.svg">
+    <script>
+        if (!Modernizr.svg) {
+            $("img").attr("src", "images/muffin.svg")
+        }
+    </script>
+</body>
+</html>
